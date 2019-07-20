@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_express_portfolio",
+  "version": "0.0.1",
+  "description": "teamtreehouse techdegree unit-06",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amnaatarapper/unit-06.git"
+  },
+  "author": "AIT BAZIZ Oussama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amnaatarapper/unit-06/issues"
+  },
+  "homepage": "https://github.com/amnaatarapper/unit-06#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

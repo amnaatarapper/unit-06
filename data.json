@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "A Random Quotes Generator",
+            "description": "Lorem ipsum",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://mystifying-feynman-995dc1.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-01",
+            "image_urls": ["/images/project_01_square.jpg", "/images/project_01_banner.jpg" ]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination",
+            "description": "Lorem ipsum",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://elegant-curie-691406.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-02",
+            "image_urls": ["/images/project_02_square.jpg", "/images/project_02_banner.jpg" ]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "Lorem ipsum",
+            "technologies": ["HTML", "CSS", "JQUERY"],
+            "live_link": "https://fervent-curran-cfcc85.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-03",
+            "image_urls": ["/images/project_03_square.jpg", "/images/project_03_banner.jpg" ]
+        },
+        {
+            "id": 4,
+            "project_name": "OOP Phase Hunter Game",
+            "description": "Lorem ipsum",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://relaxed-euler-bc658d.netlify.com/",
+            "github_link": "https://github.com/amnaatarapper/unit-04",
+            "image_urls": ["/images/project_04_square.jpg", "/images/project_04_banner.jpg" ]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "Lorem ipsum",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://eager-knuth-d0996b.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-05",
+            "image_urls": ["/images/project_05_square.jpg", "/images/project_05_banner.jpg" ]
+        }
+    ]
+}

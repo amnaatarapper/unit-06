@@ -1,1 +1,7 @@
-h1= `${error.message} - Status: ${error.status}`
+extends layout
+
+block content
+    .erreur 
+        .content
+            h1= `${error.message} ${error.status}`
+            p= error.stack

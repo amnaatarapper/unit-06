@@ -32,9 +32,3 @@ app.use((err, req, res, next) => {
     res.render('error', { error: err });
 })
 
-
-
-
-app.listen('3000', () => {
-    console.log('server is up on localhost:3000')
-})

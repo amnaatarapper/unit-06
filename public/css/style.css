@@ -1,4 +1,3 @@
-
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
@@ -49,6 +48,7 @@ a:hover{
 .image{
   display: inline-block;
   max-width: 100%;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
@@ -58,20 +58,20 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%);
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(36, 36, 36);
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: rgb(36, 36, 36);
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +79,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    opacity: .5;
   }
 
 .portfolio-breadcrumb{
@@ -110,10 +110,16 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  
 }
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    
+    border: 2px solid;
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1
+    
   }
 
   .portfolio-index a{
@@ -127,6 +133,11 @@ a:hover{
     .portfolio-index .cell h5{
       letter-spacing: 1px;
     }
+
+  .portfolio-index .cell:hover{
+    opacity: 0.5;
+    transition: opacity .5s;
+  }
 
 .portfolio-meta{
   padding-left: 20px;

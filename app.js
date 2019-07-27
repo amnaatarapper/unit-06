@@ -5,6 +5,7 @@ const app = express();
 
 app.set('view engine', 'pug')
 
+// serve static files
 app.use('/static', express.static('public'))
 
 // routes
@@ -28,13 +29,21 @@ app.use((req, res, next) => {
 
 // code to execute in case express didnt find a matching get request
 app.use((err, req, res, next) => {
+    
+
     res.status(err.status);
-    res.render('error', { error: err });
+    res.render('error', { error: err })
+
+    let errorMessage = "Request message: " + err.message;
+    errorMessage += "\nRequest status: " + err.status;
+    errorMessage += "\nError stack: " + err.stack;
+
+    console.log(errorMessage);
 })
 
 
 
-
+// dev server address
 app.listen('3000', () => {
     console.log('server is up on localhost:3000')
 })

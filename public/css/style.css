@@ -98,13 +98,16 @@ a:hover{
  }
 
 .portfolio-intro{
-  margin: 0;
   padding: 40px 50px 30px;
+  
 }
 
 .portfolio-intro p{
-  border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
+}
+
+h1.projects {
+  margin-bottom: .2em;
 }
 
 .portfolio-index{
@@ -163,3 +166,4 @@ a:hover{
 .erreur {
   margin: 5em 5em;
 }
+

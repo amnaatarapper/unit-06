@@ -44,6 +44,24 @@
             "live_link": "https://eager-knuth-d0996b.netlify.com",
             "github_link": "https://github.com/amnaatarapper/unit-05",
             "image_urls": ["/images/project_05_square.jpg", "/images/project_05_banner.jpg" ]
+        },
+        {
+            "id": 6,
+            "project_name": "this",
+            "description": "Mon portfolio personnel. Tourne sous l'environnement NodeJS, codé à l'aide du framework Express utilisant PUG(Jade) comme moteur de rendu.",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT", "EXPRESS", "PUG"],
+            "live_link": "/",
+            "github_link": "https://github.com/amnaatarapper/unit-06",
+            "image_urls": ["/images/project_06_square.jpg", "/images/project_06_banner.jpg" ]
+        },
+        {
+            "id": 7,
+            "project_name": "React Photo Gallery",
+            "description": "L'application est un moteur de recherche de photos lié à Unsplash avec Axios le tout codé en React...",
+            "technologies": ["JSX", "CSS", "React", "React Router 4", "Axios"],
+            "live_link": "https://priceless-rosalind-106250.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-07",
+            "image_urls": ["/images/project_07_square.jpg", "/images/project_07_banner.jpg" ]
         }
     ]
 }

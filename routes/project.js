@@ -35,8 +35,8 @@ router.get('/en/project/:index', (req, res) => {
 
     const index = req.params.index - 1;
     const project = projects[index];
-    const title = project.project_name;
-    const desc = project.description;
+    const title = project.project_name_en;
+    const desc = project.description_en;
     const technologies = project.technologies;
     const live = project.live_link;
     const github = project.github_link;

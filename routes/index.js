@@ -25,7 +25,7 @@ router.get('/en', (req, res) => {
     const render = [];
 
     projects.forEach(project => {
-        render.push([project.id, project.project_name, project.image_urls[0]])
+        render.push([project.id, project.project_name_en, project.image_urls[0]])
     });
 
     res.render('index_en', {

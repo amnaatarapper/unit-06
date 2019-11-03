@@ -12,9 +12,13 @@ app.use('/static', express.static('public'))
 
 // Redirects the user based on his system language
 app.get('/', (req, res) => {
+    
     const userLang = req.headers["accept-language"].slice(6, 8);
 
-    res.redirect(`/${userLang}`);
+    if (userLang === "fr" || userLang === "en")
+        res.redirect(`/${userLang}`)
+    else
+        res.redirect('/en');
 });
 
 const index = require('./routes')

@@ -2,7 +2,7 @@ extends layout.pug
 
 block content 
   nav.grid-container.portfolio-breadcrumb
-    a(href='/fr') ← Retour
+    a(href='/en') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-12.medium-9.large-9
@@ -12,7 +12,7 @@ block content
         p.lead.text-light= desc
 
       .cell.portfolio-meta.small-12.medium-2.large-3
-        h6 Technologies utilisées
+        h6 Technologies
 
         ul
           each tech in technologies

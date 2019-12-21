@@ -12,6 +12,17 @@
             "image_urls": ["/images/project_01_square.jpg", "/images/project_01_banner.jpg" ]
         },
         {
+            "id": 2,
+            "project_name": "Pagination de listes",
+            "description": "Dans un site web avec de longues listes de produits ou de profiles l’affichage de ses derniers sans limites peut étouffer le visiteur ! Dans ce projet j’ai eu à afficher que dix étudiants sur une liste de plusieurs dizaines de profiles d’étudiants et assigner chaque groupe à un numéro de page.",
+            "project_name_en": "Lists Pagination",
+            "description_en": "In a website with long lists of products or profiles the display of theses without limitation can stifle and confuse the visitor! In this project, i had to limit the display for students profiles by only ten students over a list of several dozen student profiles and assign each group to a page number.",
+            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
+            "live_link": "https://elegant-curie-691406.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-02",
+            "image_urls": ["/images/project_02_square.jpg", "/images/project_02_banner.jpg" ]
+        },
+        {
             "id": 3,
             "project_name": "Formulaire intéractif",
             "description": "Une large majorité des projets web requière la présence d’un formulaire. Dans ce projet j’ai mis en valeur mes connaissances en jQuery dans l’idée de créer un formulaire interactif d’inscription à une conférence !",
@@ -54,6 +65,28 @@
             "live_link": "/",
             "github_link": "https://github.com/amnaatarapper/unit-06",
             "image_urls": ["/images/project_06_square.jpg", "/images/project_06_banner.jpg" ]
+        },
+        {
+            "id": 7,
+            "project_name": "Gallerie Photos React",
+            "description": "L'application est un moteur de recherche de photos lié à Unsplash avec Axios le tout codé en React...",
+            "project_name_en": "React Photo Gallery",
+            "description_en": "The application is a photo search engine linked to Unsplash with Axios all coded in React...",
+            "technologies": ["JSX", "CSS", "React", "React Router 4", "Axios"],
+            "live_link": "https://priceless-rosalind-106250.netlify.com",
+            "github_link": "https://github.com/amnaatarapper/unit-07",
+            "image_urls": ["/images/project_07_square.jpg", "/images/project_07_banner.jpg" ]
+        },
+        {
+            "id": 8,
+            "project_name": "Gestionnaire de bibliothèque",
+            "description": "L'application permet d'obtenir des informations sur un bouquin, d'ajouter, de modifier ou de supprimer des bouquins d'une base de données.",
+            "project_name_en": "Library Manager",
+            "description_en": "The application allows you to get informations about a book, add, edit or delete books from a database.",
+            "technologies": ["HTML", "CSS", "SQLite", "SEQUELIZE", "NODEJS/EXPRESS", "PUG(JADE)"],
+            "live_link": "https://amnaatarapper-library-manager.herokuapp.com/",
+            "github_link": "https://github.com/amnaatarapper/unit-08",
+            "image_urls": ["/images/project_08_square.jpg", "/images/project_08_banner.jpg" ]
         },
         {
             "id": 9,

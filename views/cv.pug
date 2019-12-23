@@ -1,0 +1,237 @@
+doctype html
+head
+  title CV - AIT BAZIZ Oussama
+  // Meta
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(name='description' content='')
+  meta(name='author' content='AIT BAZIZ Oussama')
+  // Google Fonts
+  link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900' rel='stylesheet')
+  // FontAwesome JS
+  script(defer='' src='https://use.fontawesome.com/releases/v5.8.1/js/all.js' integrity='sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ' crossorigin='anonymous')
+  // Theme CSS
+  link#theme-style(rel='stylesheet' href='/static/assets/css/devresume.css')
+.main-wrapper
+  .container.px-3.px-lg-5
+    article.resume-wrapper.mx-auto.theme-bg-light.p-5.mb-5.my-5.shadow-lg
+      .resume-header
+        .row.align-items-center
+          .resume-title.col-12.col-md-6.col-lg-8.col-xl-9
+            h2.resume-name.mb-0.text-uppercase AIT BAZIZ Oussama
+            .resume-tagline.mb-3.mb-md-0 Full Stack Javascript Developer
+          // //resume-title
+          .resume-contact.col-12.col-md-6.col-lg-4.col-xl-3
+            ul.list-unstyled.mb-0
+              li.mb-2
+                i.fas.fa-phone-square.fa-fw.fa-lg.mr-2
+                a.resume-link(href='tel:+213540180574<') +213 540 180 574
+              li.mb-2
+                i.fas.fa-envelope-square.fa-fw.fa-lg.mr-2
+                a.resume-link(href='mailto:#') contact@aitbazizoussama.com
+              li.mb-2
+                i.fas.fa-globe.fa-fw.fa-lg.mr-2
+                a.resume-link(href='#') www.aitbazizoussama.com
+              li.mb-0
+                i.fas.fa-map-marker-alt.fa-fw.fa-lg.mr-2
+                | Algiers
+          // //resume-contact
+        // //row
+      // //resume-header
+      hr
+      .resume-intro.py-3
+        .media.flex-column.flex-md-row.align-items-center
+          img.resume-profile-image.mb-3.mb-md-0.mr-md-5.ml-md-0.rounded.mx-auto(src='/static/assets/images/resume-profile.png' alt='image')
+          .media-body.text-left
+            p.mb-2
+              | I am a Civil Engineer specialized in civil engineering materials
+              | graduated in 2018, I chose to leave my job at Cosider Construction
+              | to put myself full time on learning web technologies, it&apos;s a dream that
+              | I&apos;ve had a dream in my head for many years, a dream I&apos;m currently living...
+            p.mb-0
+              | I&apos;ve been 
+              a(href='https://www.credential.net/13940467') certified
+              |  by
+              | Treehouse after having followed a techdegree of 10 units with a project to be validated
+              | by the
+              | teachers at the end of each unit. I took classes around JavaScript,
+              | object-oriented programming, SQL, NodeJS environment and finally ReactJS.
+          // //media-body
+      // //resume-intro
+      hr
+      .resume-body
+        .row
+          .resume-main.col-12.col-lg-8.col-xl-9.pr-0.pr-lg-5
+            section.work-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Work Experiences
+              .item.mb-3
+                .item-heading.row.align-items-center.mb-2
+                  h4.item-title.col-12.col-md-6.col-lg-8.mb-2.mb-md-0
+                    | Engineer at
+                    | laboratory
+                  .item-meta.col-12.col-md-6.col-lg-4.text-muted.text-left.text-md-right
+                    | COSIDER | 07/2018 - 09/2018
+                .item-content
+                  p Concrete production manager in a concrete batching plant.
+                  ul.resume-list
+                    li Continuous monitoring of concrete quality;
+                    li Timming of supply to construction sites;
+                    li Follow-up of implementation on site.
+              // //item
+              .item.mb-3
+                .item-heading.row.align-items-center.mb-2
+                  h4.item-title.col-12.col-md-6.col-lg-8.mb-2.mb-md-0 Developer
+                  .item-meta.col-12.col-md-6.col-lg-4.text-muted.text-left.text-md-right
+                    | Imagemotors | 10/2018
+                .item-content
+                  p
+                  ul.resume-list
+                    li
+                      | Code/Design a web site for a company specialized in building industrial
+                      | vehicles.
+              // //item
+            // //work-section
+            section.project-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Projects
+              .item.mb-3
+                .item-heading.row.align-items-center.mb-2
+                  h4.item-title.col-12.col-md-6.col-lg-8.mb-2.mb-md-0
+                    | Techdegree projects
+                  .item-meta.col-12.col-md-6.col-lg-4.text-muted.text-left.text-md-right
+                    | Open Source
+                .item-content
+                  p
+                    | You can see the collection of projects I am proud of on my 
+                    a.theme-link(href='http://aitbazizoussama.com' target='_blanc') portfolio.
+                    |  or on Github via the following links:
+                    ul.resume-list
+                      li
+                        a(href='https://github.com/amnaatarapper/unit-03')
+                          | jQuery -
+                          | Interactive Form
+                      li
+                        a(href='https://github.com/amnaatarapper/unit-04')
+                          | JS OOP - Phrase
+                          | hunter game
+                      li
+                        a(href='https://github.com/amnaatarapper/unit-06')
+                          | NodeJS - My
+                          | personal portfolio
+                      li
+                        a(href='https://github.com/amnaatarapper/unit-09')
+                          | NodeJS - REST API
+                          | with auth
+                      li
+                        a(href='https://github.com/amnaatarapper/unit-10')
+                          | NodeJS / ReactJS
+                          | / REST API - Full Stack App
+              // //item
+            // //project-section
+          // //resume-main
+          aside.resume-aside.col-12.col-lg-4.col-xl-3.px-lg-4.pb-lg-4
+            section.skills-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Skills
+              .item
+                h4.item-title Technical
+                ul.list-unstyled.resume-skills-list
+                  li.mb-2 HTML5/CSS3
+                  li.mb-2 JavaScript
+                  li.mb-2
+                    | Object oriented programming
+                  li
+                  li.mb-2 NodeJS/Express
+                  li.mb-2 Sequelize ORM - Design and implement database structures
+                  li.mb-2 React, React Router 4
+                  li.mb-2 Design/Build REST APIs
+                  li.mb-2 Git/GitHub
+                  li.mb-2 Authentification
+              // //item
+              .item
+                h4.item-title Professional
+                ul.list-unstyled.resume-skills-list
+                  li.mb-2 Good Communicator
+                  li.mb-2 Team player
+                  li.mb-2 Responsability Sense
+              // //item
+            // //skills-section
+            section.education-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Education
+              ul.list-unstyled.resume-education-list
+                li.mb-3
+                  .resume-degree.font-weight-bold
+                    | Master degree - Civil Engineering
+                  .resume-degree-org.text-muted
+                    | University M&apos;Hamed Bougerra Boumerd&egrave;s
+                  .resume-degree-time.text-muted 2012 - 2018
+                li
+                  .resume-degree.font-weight-bold
+                    | Techdegree - Full Stack Javascript
+                  .resume-degree-org.text-muted Team Treehouse
+                  .resume-degree-time.text-muted 05/2019 - 10/2019
+            // //education-section
+            //
+              <section class="education-section py-3">
+              <h3 class="text-uppercase resume-section-heading mb-4">Awards</h3>
+              <ul class="list-unstyled resume-awards-list">
+              <li class="mb-3">
+              <div class="font-weight-bold">Award Lorem Ipsum</div>
+              <div class="text-muted">Microsoft lorem ipsum (2019)</div>
+              </li>
+              <li>
+              <div class="font-weight-bold">Award Donec Sodales</div>
+              <div class="text-muted">Oracle Aenean (2017)</div>
+              </li>
+              </ul>
+              </section>
+            // //education-section
+            section.skills-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Languages
+              ul.list-unstyled.resume-lang-list
+                li.mb-2
+                  | Arabic
+                  span.text-muted (Native)
+                li.mb-2
+                  | French 
+                  span.text-muted (Good)
+                li.mb-2
+                  | English 
+                  span.text-muted (Average)
+            // //certificates-section
+            section.skills-section.py-3
+              h3.text-uppercase.resume-section-heading.mb-4 Interests
+              ul.list-unstyled.resume-interests-list.mb-0
+                li.mb-2 Smartphones
+                li.mb-2 Computing hardware
+                li.mb-2 Photography
+                li.mb-2 Gaming
+            // //certificates-section
+          // //resume-aside
+        // //row
+      // //resume-body
+      hr
+      .resume-footer.text-center
+        ul.resume-social-list.list-inline.mx-auto.mb-0.d-inline-block.text-muted
+          li.list-inline-item.mb-lg-0.mr-3
+            a.resume-link(href='https://github.com/amnaatarapper')
+              i.fab.fa-github-square.fa-2x.mr-2(data-fa-transform='down-4')
+              span.d-none.d-lg-inline-block.text-muted github.com/amnaatarapper
+          //
+            <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="#"><i
+            class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span
+            class="d-none d-lg-inline-block text-muted">linkedin.com/in/username</span></a></li>
+            <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i
+            class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span
+            class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>
+            </ul>
+      // //resume-footer
+  // //container
+  footer.footer.text-center.py-4
+    // /* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */
+    small.copyright.text-muted
+      | Designed with 
+      i.fas.fa-heart
+      |  by 
+      a.theme-link(href='http://themes.3rdwavemedia.com' target='_blank') Xiaoying Riley
+      |  for developers
+// //main-wrapper

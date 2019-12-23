@@ -8,8 +8,13 @@ const {
 router.get('/fr/project/:index', (req, res) => {
 
 
-    const index = req.params.index - 1;
-    const project = projects[index];
+    const index = req.params.index;
+    const project = projects.filter( project => project.id == index)[0];
+
+    if (!project) {
+        res.send('<h1 style="font-size: 10rem;">You had to test that, right? :D</h1>')
+    }
+
     const title = project.project_name;
     const desc = project.description;
     const technologies = project.technologies;
@@ -33,8 +38,13 @@ router.get('/fr/project/:index', (req, res) => {
 router.get('/en/project/:index', (req, res) => {
 
 
-    const index = req.params.index - 1;
-    const project = projects[index];
+   const index = req.params.index;
+    const project = projects.filter( project => project.id == index)[0];
+
+    if (!project) {
+        res.send('<h1 style="font-size: 10rem;">You had to test that, right? :D</h1>')
+    }
+
     const title = project.project_name_en;
     const desc = project.description_en;
     const technologies = project.technologies;

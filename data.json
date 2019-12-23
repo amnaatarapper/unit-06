@@ -1,17 +1,6 @@
 {
     "projects": [
         {
-            "id": 1,
-            "project_name": "Citations aléatoires",
-            "description": "Afin d’apprendre la syntax JavaScript et la structure des données, j’ai construit un programme qui affiche une citation à chaque fois qu’on clique sur un bouton.",
-            "project_name_en": "Random Quotes",
-            "description_en": "In order to learn Javascript syntax and data structure, I built a program that displays a quote every time you click a button.",
-            "technologies": ["HTML", "CSS", "JAVASCRIPT"],
-            "live_link": "https://mystifying-feynman-995dc1.netlify.com",
-            "github_link": "https://github.com/amnaatarapper/unit-01",
-            "image_urls": ["/images/project_01_square.jpg", "/images/project_01_banner.jpg" ]
-        },
-        {
             "id": 3,
             "project_name": "Formulaire intéractif",
             "description": "Une large majorité des projets web requière la présence d’un formulaire. Dans ce projet j’ai mis en valeur mes connaissances en jQuery dans l’idée de créer un formulaire interactif d’inscription à une conférence !",

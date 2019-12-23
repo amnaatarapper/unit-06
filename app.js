@@ -30,6 +30,8 @@ app.use(projects);
 const about = require('./routes/about')
 app.use(about);
 
+const cv = require('./routes/cv')
+app.use(cv);
 
 // error handling middleware
 app.use((req, res, next) => {
@@ -52,7 +54,7 @@ app.use((err, req, res, next) => {
         // errorMessage += "\nError stack: " + err.stack;
 
         console.log(errorMessage);
-    }) &
+    })
 
 
 
